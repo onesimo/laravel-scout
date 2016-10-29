@@ -21,6 +21,6 @@ class Courses extends Controller
     	}
     	
 
-    	return view('courses.index', ['courses' => $courses, 'str' => $str]);
+    	return view('courses.angular', ['courses' => $courses, 'str' => $str]);
     }
 }
